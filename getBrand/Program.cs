@@ -57,6 +57,7 @@ namespace getBrand
 			if (regJSB.IsMatch(CreditCardNumber))
 				return "JSB";
 			return "invalid";
+
 		}
 
 	}
